@@ -1,5 +1,6 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useContext } from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
+
 
 import BadgerLayout from './BadgerLayout';
 import BadgerLogin from '../auth/BadgerLogin';
@@ -10,6 +11,7 @@ import BadgerChatHome from '../content/BadgerChatHome';
 import BadgerNoMatch from '../content/BadgerNoMatch';
 
 function BadgerApp() {
+
 
   const [chatrooms, setChatrooms] = useState([]);
 
@@ -31,6 +33,7 @@ function BadgerApp() {
           <Route path="/login" element={<BadgerLogin />}></Route>
           <Route path="/register" element={<BadgerRegister />}></Route>
           <Route path="/logout" element={<BadgerLogout />}></Route>
+        
           {
             chatrooms.map(chatroom => {
               return <Route key={chatroom} path={`chatrooms/${chatroom}`} element={<BadgerChatroom name={chatroom} />} />
