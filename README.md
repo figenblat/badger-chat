@@ -167,9 +167,13 @@ Then, answer the following questions by editing this `README.md`. Images can be 
 
 INSERT YOUR RESPONSE HERE.
 
+Two priciples that I have followed are flexibility in use and a community of users. Two principles I may have violated are access for all and equitable use. 
+
 2. Please sketch how you want to improve the interface based on the universal design principles. You do **not** need to implement these changes as code. Instead, include your sketch as an attachment in the `_figures` folder, and insert it below.
 
 INSERT YOUR RESPONSE HERE.
+
+![imrpoved interface](_figures/design.png)
 
 ### Done! 🥳
 
