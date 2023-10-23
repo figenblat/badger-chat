@@ -30,7 +30,7 @@ export default function BadgerLogin() {
             'Content-Type': 'application/json',
             "X-CS571-ID": CS571.getBadgerId()
           },
-          //credentials: 'include', // Include cookies for authentication
+         
         })
           .then((response) => {
             if (response.status === 401) {
