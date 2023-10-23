@@ -173,7 +173,7 @@ Two priciples that I have followed are flexibility in use and a community of use
 
 INSERT YOUR RESPONSE HERE.
 
-![improved interface](_figures/design.jpg)
+![improved interface](_figures/design.png)
 
 ### Done! 🥳
 
